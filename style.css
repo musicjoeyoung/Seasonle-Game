@@ -1,10 +1,21 @@
+@font-face {
+ font-family: "CormorantGaramond-Medium";
+ src: url(fonts/cormorant-garamond/CormorantGaramond-Medium.ttf);
+}
 html, body {
   height: 100%;
   width: 100%;
-}h1, h2 {
+  background-color: #ebdacc;
+}
+
+h1 {
     text-align: center;
+    font-family: "CormorantGaramond-Medium";
+    color: #59371c;
+  font-weight: 300;
+  font-size: 20px;
    }
-   
+
    #game-board {
      display: flex;
      align-items: center;
@@ -39,6 +50,18 @@ html, body {
      flex-direction: column;
      align-items: center;
    }
+
+   @media only screen and (max-device-width: 480px){
+    #keyboard-cont{
+         -webkit-transform:scale(0.7);
+         -moz-transform:scale(0.7);
+         -ms-transform:scale(0.7);
+         transform:scale(0.7);
+         -o-transform:scale(0.7);
+}
+}
+
+
    
    #keyboard-cont div {
      display: flex;
@@ -55,4 +78,11 @@ html, body {
      margin: 0 2px;
      cursor: pointer;
      text-transform: uppercase;
+   }
+
+   #Season-le-Logo {
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
    }

@@ -109,6 +109,7 @@ function checkGuess() {
 
   if (guessString === rightGuessString) {
     toastr.success("You guessed right! Autumn IS the BEST seasons! Game over!")
+    //window.alert('WIN!')
     guessesRemaining = 0
     return
   } else {
