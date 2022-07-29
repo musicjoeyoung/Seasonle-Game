@@ -69,6 +69,7 @@ function checkGuess() {
 
   if (!WORDS.includes(guessString)) {
     toastr.error("That word is not in the list! Delete and try again!")
+    
     return
   }
 
