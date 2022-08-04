@@ -7,7 +7,7 @@ let nextLetter = 0;
 //let rightGuessString = WORDS[Math.floor(Math.random() * WORDS.length)]
 let rightGuessString = 'autumn'
 
-console.log(rightGuessString)
+//console.log(rightGuessString)
 
 function initBoard() {
   let board = document.getElementById("game-board");
@@ -120,7 +120,8 @@ function checkGuess() {
 
     if (guessesRemaining === 0) {
       toastr.error("You've run out of guesses! Game over!")
-      toastr.info(`The right word (and BEST season) is: "${rightGuessString}"`)
+      //toastr.info(`The right word (and BEST season) is: "${rightGuessString}"`)
+      toastr.info(`The right word (and BEST SEASON) is: "AUTUMN"`)
     }
   }
 }

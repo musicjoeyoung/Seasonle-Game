@@ -59,9 +59,21 @@ h1 {
       transform:scale(0.9);
       -o-transform:scale(0.9);
     }
-   #Season-le-Logo {
+    #Season-le-Logo {
       width: 70% !important;
-   }
+    }
+
+    .toast{
+      /* width: 132% !important; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      background-color: rgba(189, 54, 47, 0.83);
+    }
+    #toast-container{
+      width: 80% !important;
+    }
 }
 
    
@@ -73,18 +85,39 @@ h1 {
      margin: 0.5rem 0;
    }
    
-   .keyboard-button {
-     font-size: 1rem;
-     font-weight: 700;
-     padding: 0.5rem;
-     margin: 0 2px;
-     cursor: pointer;
-     text-transform: uppercase;
-   }
-
+ .keyboard-button {
+font-size: 1.2rem;
+font-weight: 500;
+padding: 0.5rem;
+margin: 0 2px;
+cursor: pointer;
+text-transform: uppercase;
+color: black;
+border: 1px gray solid;
+}
    #Season-le-Logo {
         display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
    }
+
+#toast-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    left: 0px;
+}
+#toast-container>div {
+  width: 100% !important;
+  border-radius: 30px !important;
+  -webkit-border-radius: 30px !important;
+  -moz-border-radius: 30px !important;
+  -ms-border-radius: 30px !important;
+  -o-border-radius: 30px !important;
+}
+
+.toast-message {
+  text-align: center;
+}
