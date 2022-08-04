@@ -60,7 +60,7 @@ h1 {
       -o-transform:scale(0.9);
     }
     #Season-le-Logo {
-      width: 70% !important;
+      width: 100% !important;
     }
 
     .toast{
@@ -120,4 +120,5 @@ border: 1px gray solid;
 
 .toast-message {
   text-align: center;
+  font-size: 26px;
 }
